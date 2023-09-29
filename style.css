@@ -24,41 +24,142 @@ body{
     padding-top: 15px;
     font-size: 25px;
 }
+span{
+    color: #00ff7b;
+}
 
 img{
     width: 85px;
 }
-.meio{
+.cmc{
     align-items: center;
     justify-content: center;
     display: flex;
-    
 }
-.txt-meio{
+.txt-cmc{
     color: #fff;
     position: relative;
     font-size: 20px;
     top: 150px;
     right: 100px;
 }
-.txt-meio h4{
+.txt-cmc pre{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     position: relative;
-    left: 150px;
+    top: 45px;
+    left: 40px;
 }
 .imggg{
     position: relative;
-    left: 45%;
-
+    left: 47%;
+    top: -20px; 
 }
 .imggg img{
     width: 250px;
 }
 .decoracao{
     position: relative;
-    right: 94%;
+    right: 98%;
     top: 450px;
 } 
 .decoracao img{
     width: 250px;
 }
+.fundo{
+    position: absolute;
+    top: 45%;
+}
+.fundo img{
+    width: 160px;
+    position: absolute;
+    z-index: 1;
+}
+.meio{
+    background-color: #2C7AFF;
+}
+.flex-meio{
+    display: flex;
+    padding: 250px;
+    position: relative;
+}
+.txt-meio{
+    color: #fff;
+    width: 1050px;
+}
+.txt-meio h1{
+    padding-top: 10px;
+    padding-left: 220px; 
+}
+pre{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    position: relative;
+    top: 45px;
+    left: 40px;
+}
+.txt-meio pre{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 20px;
+    position: absolute;
+    top: 320px;
+    padding-right: 45px;
+    padding-left: 80px;
+}
+.img-meio{
+    position: relative;
+    top: 65%;
+    left: 170px;
+    animation: flutuar 2s  ease-in-out infinite alternate;
+}
+.img-meio img{
+    width: 250px;
+}
+@keyframes flutuar {
+    0%{
+        top: 0;
+    }
+    100%{
+        top: 30px;
+    }
+}
+.orecli{
+    position: absolute;
+    top: 390px;
+    left: 40px;
+}
+.orecli pre{
+    font-size: 20px;
+    color: #fff;
+    padding-left: 50px;
+}
+.decoracaorecli{
+    position: absolute;
+    top: 50px;
+    left: 450px;
+}
+.decoracaorecli img{
+    width: 300px;
+    
+}
+::-webkit-scrollbar{
+    background: #005eff;
+    width: 10px;
+}
+::-webkit-scrollbar-thumb{
+    background-color: rgb(0, 161, 62);
+    border-radius: 10px;
+    border: 2px solid rgb(0, 165, 63);
+}
+.decoracaocantodatela{
+    position: absolute;
+    top: 170px;
+    left: 950px;
+}
+.decoracaocantodatela img{
+    width: 180px;
+}
 
+.img-recli{
+    position: absolute;
+    top: 1070px;
+    left: 350px;
+}
