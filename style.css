@@ -135,7 +135,7 @@ pre{
         top: 0;
     }
     100%{
-        top: 25px;
+        top: 15px;
     }
 }
 ::-webkit-scrollbar{
