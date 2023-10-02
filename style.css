@@ -132,7 +132,7 @@ pre{
 }
 @keyframes flutuar {
     0%{
-        top: 0;
+        top: 10px;
     }
     100%{
         top: 15px;
