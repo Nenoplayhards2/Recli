@@ -132,10 +132,10 @@ pre{
 }
 @keyframes flutuar {
     0%{
-        top: 10px;
+        top: 0;
     }
     100%{
-        top: 15px;
+        top: 1px;
     }
 }
 ::-webkit-scrollbar{
