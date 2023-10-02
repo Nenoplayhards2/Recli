@@ -11,46 +11,43 @@ body{
     background-color: #005eff;
 }
 header{
-    display: flex;
+    position: relative;
     background: #00a13e;
     height: 85px;
     width: 100%;
-    align-items: first baseline;
+    text-align: center;
+    align-items: center;
     justify-content: center;
 }
 .logo{
    width: 100px;
-   padding-right: 1500px;
+   align-items: left;
+   padding-left: 45px;
    padding-top: 05px;
 }
 .logo img{
     height: 80px;
 }
+
 .wel{
-    width: 800px;
-    position: relative;
-    top: -60px;
-    left: 630px;
-    align-items: center;
-    justify-items: center;
+    text-align: center;
 }
+
 .wel h1{
     color: #fff;
 }
+
+
 .imggg{
     align-items: center;
     justify-content: center;
-    padding-left: 660px;
+    text-align: center;
 }
 .imggg img{
     width: 280px;
 }
 .txt-cmc{
-    width: 1080px;
-    height: 215px;
-    position: absolute;
-    left: 200px;
-    top: 295px;
+    text-align: center;
 }
 .txt-cmc h2 pre{
     color: #fff;
@@ -58,28 +55,23 @@ header{
     font-family: 'Merriweather', serif;
 }
 .decoracao{
-    width: 200px;
-    margin-top: 80px;
-    position: absolute;
-    top: 300px;
-    right: 1480px;
+    text-align: left;
+    top: 525px;
+    right: 1380px;
 }
 .decoracao img{
     width: 200px;
 }
 .meio{
-    margin-top: 200px;
+    justify-content: right; 
 }
 .txt-meio{
-    padding: 20px;
-    padding-left: 610px;
+    text-align: center;
 }
-.txt-meio h1{
+.txt-meio h1{    
     color: #fff;
 }
 .txt-meio h2{
-    position: absolute;
-    right: 280px;
     font-size: 20px;
     font-family: 'Merriweather', serif;   
     color: #fff;
@@ -88,31 +80,25 @@ pre{
     font-family: 'Merriweather', serif; 
 }
 .img-meio{
-    margin-top: 0px;
-    margin-left: 1270px;
+    text-align: right;
+    padding-right: 80px;
 }
 .img-meio img.celular{
     position: relative;
-    width: 250px;
-    animation: flutuar 2s  ease-in-out infinite alternate;
+    width: 300px;
+    animation: flutuar 1s  ease-in-out infinite alternate;
+    font-size: 60px;
 }
 .orecli{
-    padding: 30px;
-    padding-left: 500px;
-    padding-top: 50px;
-    display: flex;
+    text-align: center;
 }
 .orecli h2{
     font-size: 20px;
     color: #fff;
-    position: relative;
-    right: 290px;
-    top: -200px;
 }
 .decoracaorecli{
-    width: 500px;
-    position: relative;
-    right: 1550px;
+    text-align: left;
+    width: 30px;
 }
 .decoracaorecli img{
     width: 350px;
@@ -123,7 +109,7 @@ pre{
     width: 300px;
     position: relative;
     right: 650px;
-    top: 50px;
+    top: 60px;
 
 }
 .decoracaocantodatela img{
@@ -135,7 +121,7 @@ pre{
         top: 0;
     }
     100%{
-        top: 1px;
+        top: 30px;
     }
 }
 ::-webkit-scrollbar{
