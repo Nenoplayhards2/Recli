@@ -60,7 +60,7 @@ header{
 .decoracao{
     width: 200px;
     margin-top: 50px;
-    position: absolute;
+    position: relative;
     top: 400px;
     right: 1480px;
 }
