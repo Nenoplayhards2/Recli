@@ -91,6 +91,7 @@ pre{
 }
 .orecli{
     text-align: center;
+    
 }
 .orecli h2{
     font-size: 20px;
@@ -99,6 +100,7 @@ pre{
 .decoracaorecli{
     text-align: left;
     width: 30px;
+
 }
 .decoracaorecli img{
     width: 350px;
@@ -106,15 +108,10 @@ pre{
     top: -120px;
 }
 .decoracaocantodatela{
-    width: 300px;
-    position: relative;
-    right: 650px;
-    top: 60px;
-
+    text-align: right;
 }
 .decoracaocantodatela img{
     width: 150px;
-
 }
 @keyframes flutuar {
     0%{
