@@ -11,108 +11,148 @@ body{
     background-color: #005eff;
 }
 header{
-    position: relative;
-    background: #00a13e;
-    height: 85px;
     width: 100%;
-    text-align: center;
-    align-items: center;
-    justify-content: center;
+    height: 90px;
+    background: #01AD5A;
+    display: inline-block;
+}
+main.header{
+    position: relative;
 }
 .logo{
-   width: 100px;
-   align-items: left;
-   padding-left: 45px;
-   padding-top: 05px;
+    float: left;
+    width: 30%;
+    padding: 10px;
+    height: 90px;
 }
 .logo img{
     height: 80px;
 }
 
 .wel{
+    width: 40%;
+    padding: 30px;
     text-align: center;
+    float: left;
+    height: 90px;
 }
 
 .wel h1{
     color: #fff;
 }
 
-
 .imggg{
-    align-items: center;
-    justify-content: center;
+    width: 100%;
+    padding: 30px;
     text-align: center;
+    float: left;
+    height: 290px;
 }
 .imggg img{
     width: 280px;
 }
-.txt-cmc{
+
+.txt-cmc {
     text-align: center;
+    width: 100%;
+    padding: 30px;
+    text-align: center;
+    float: left;
+    height: 290px;
 }
+
 .txt-cmc h2 pre{
     color: #fff;
     font-size: 20px;
     font-family: 'Merriweather', serif;
 }
+
 .decoracao{
-    text-align: left;
-    top: 525px;
-    right: 1380px;
+    width: 0;
+    padding: 30px;
+    text-align: center;
+    float: left;
+    height: 290px;
 }
+
 .decoracao img{
     width: 200px;
 }
+
 .meio{
     justify-content: right; 
 }
+
 .txt-meio{
     text-align: center;
+    width: 100%;
+    padding: 30px;
+    text-align: center;
+    float: left;
 }
+
 .txt-meio h1{    
     color: #fff;
 }
+
 .txt-meio h2{
     font-size: 20px;
     font-family: 'Merriweather', serif;   
     color: #fff;
 }
+
 pre{
     font-family: 'Merriweather', serif; 
 }
+
 .img-meio{
-    text-align: right;
-    padding-right: 80px;
+    padding: 10px;
+    text-align: center;
+    width: 10%;
+    float: left;
 }
+
 .img-meio img.celular{
     position: relative;
-    width: 300px;
+    width: 200px;
+    padding: 10px;
     animation: flutuar 1s  ease-in-out infinite alternate;
     font-size: 60px;
 }
+
 .orecli{
+    width: 100%;
+    padding: 10px;
     text-align: center;
-    
+    float: left;
 }
+
 .orecli h2{
     font-size: 20px;
     color: #fff;
 }
-.decoracaorecli{
-    text-align: left;
-    width: 30px;
 
+.decoracaorecli{
+    width: 20%;
+    padding: 5px;
+    text-align: center;
+    float: left;
 }
+
 .decoracaorecli img{
-    width: 350px;
-    position: relative;
-    top: -120px;
+    width: 250px;   
 }
+
 .decoracaocantodatela{
-    text-align: right;
+    width: 20%;
+    padding: 20px;
+    float: right;
 }
+
 .decoracaocantodatela img{
     width: 150px;
 }
+
 @keyframes flutuar {
     0%{
         top: 0;
@@ -121,12 +161,205 @@ pre{
         top: 30px;
     }
 }
+
+@keyframes degrade-animado{
+    0%{
+        background-position-x: 0%;
+    }
+    100%{
+        background-position-x: 100%;
+    }
+}
 ::-webkit-scrollbar{
     background: #4589ff;
     width: 10px;
 }
+
 ::-webkit-scrollbar-thumb{
     background-color: rgb(0, 161, 62);
-    border-radius: 10px;
+    border-radius: 50px;
     border: 2px solid rgb(0, 165, 63);
+}
+
+footer{
+    background-color: #01AD5A;
+    width: 100%;
+    display: inline-block;
+    height: 150px;
+}
+
+.flex-footer{
+    width: 100%;
+}
+
+.imgfooter{
+    float: left;
+    width: 35%;
+    height: 150px;
+    padding: 20px;
+}
+
+.imgfooter img{
+    width: 90px;
+}
+
+.txt-footer{
+    color: #fff;
+    width: 40%;
+    height: 150px;
+    padding: 50px;
+    float: left;
+}
+.sociaiss{
+    width: 20%;
+    height: 150px;
+    padding: 50px;
+    float: left;
+}
+
+.sociaiss button.ins{
+    width: 40px;
+    height: 40px;
+    border-radius: 7px;
+    border: none;
+    cursor: pointer;
+    background-image: linear-gradient(45deg, yellow, rgb(255, 67, 76), rgb(253, 80, 224));
+    background-size: 500% 100%;
+    animation: degrade-animado 5s infinite alternate;
+}
+.sociaiss button.ins i{
+    color: #ffffff;
+    font-size: 25px;
+}
+.final{
+    width: 100%;
+    padding: 10px;
+    text-align: center;
+    float: left;
+}
+.txt-final{
+    float: left;
+    text-align: center;
+    width: 100%;
+    height: 30px;
+    padding: 50px;
+    
+}
+.txt-final pre{
+    color: #fff;
+    font-size: 20px;
+    font-family: 'Merriweather', serif;                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                      
+}
+.app{
+    float: left;
+    width: 60%;
+    padding: 75px;
+}
+.app h1{
+    color: rgb(255, 87, 87);
+}
+.imgplanet{
+    text-align: left;
+    float: left;
+    width: 20%;
+    padding: 60px;
+}
+.imgplanet img{
+    width: 150px;
+}
+.download{
+    text-align: center;
+    float: left;
+    width: 58%;
+    padding: 10px;
+    height: 40%;
+}
+.download img{
+    width: 250px;
+}
+.celular-final{
+    position: relative;
+    width: 30%;
+    float: right;
+    padding-left: 180px;
+    height: 40px;
+    animation: flutuar 0.90s ease-in-out infinite alternate;
+}
+.celular-final img{
+    width: 200px;
+}
+.penultimo{
+    width: 100%;
+    text-align: center;
+    float: left;
+}
+.txt-penul{
+    width: 100%;
+    padding: 20px;
+    float: left;
+}
+.txt-penul h1{
+    color: #fff;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.inf-1{
+    width: 100%;
+    float: left;
+    text-align: center;
+}
+.inf-1 h2{
+    width: 100%;
+    float: left;
+    color: #fff;
+    padding: 20px;
+}
+.inf-2{
+    width: 90%;
+    float: left;
+    color: #fff;
+}
+.inf-2 h2{
+    width: 100%;
+    padding: 40px;
+}
+.notlixo{
+}
+.notlixo img{
+    width: 150px;
+    position: relative;
+    left: 700px;
+    bottom: 575px;
+}
+.inf-3{
+    width: 100%;
+    float: left;
+    bottom: 150px;
+}
+.inf-3 h2{
+    width: 100%;
+    float: left;
+    color: #fff;
+    padding: 40px;
+}
+.inf-4{
+    width: 100%;
+    float: left;
+    bottom: 150px;
+}
+.inf-4 h2{
+    width: 100%;
+    float: left;
+    color: #fff;
+    padding: 40px;
+}
+.inf-5{
+    width: 100%;
+    float: left;
+    bottom: 150px;
+}
+.inf-5 h2{
+    width: 100%;
+    float: left;
+    color: #fff;
+    padding: 40px;
 }
